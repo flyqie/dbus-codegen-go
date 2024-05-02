@@ -128,13 +128,13 @@ if err := Emit(conn, &My_Awesome_Interface_SomethingHappenedSignal{
 You can install it with `go get`:
 
 ```bash
-GO111MODULE=on go get -u github.com/amenzhinsky/dbus-codegen-go
+GO111MODULE=on go get -u github.com/flyqie/dbus-codegen-go
 ```
 
 Or clone the repo and build it manually:
 
 ```bash
-git clone https://github.com/amenzhinsky/dbus-codegen-go.git .
+git clone https://github.com/flyqie/dbus-codegen-go.git .
 go install
 ```
 

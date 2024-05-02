@@ -23,5 +23,5 @@ Message over dBus : Hello, this is example codebase for dbus-codegen-go
 ```
 #### Note
 Make sure dbus-codegen-go is installed. To install, run
-`GO111MODULE=on go get -u github.com/amenzhinsky/dbus-codegen-go`
+`GO111MODULE=on go get -u github.com/flyqie/dbus-codegen-go`
 

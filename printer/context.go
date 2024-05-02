@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/amenzhinsky/dbus-codegen-go/token"
+	"github.com/flyqie/dbus-codegen-go/token"
 	"github.com/godbus/dbus/v5/introspect"
 )
 
