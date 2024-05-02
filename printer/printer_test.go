@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/flyqie/dbus-codegen-go/token"
+	"github.com/sakura-remote-desktop/dbus-codegen-go/token"
 )
 
 func TestPrintClient(t *testing.T) {

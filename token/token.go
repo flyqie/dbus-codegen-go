@@ -1,6 +1,6 @@
 package token
 
-import "github.com/godbus/dbus/v5/introspect"
+import "github.com/sakura-remote-desktop/godbus/v5/introspect"
 
 // Interface is a D-Bus interface.
 type Interface struct {

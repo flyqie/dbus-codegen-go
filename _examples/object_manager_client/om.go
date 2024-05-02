@@ -5,7 +5,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/godbus/dbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5"
 )
 
 // Signal is a common interface for all signals.

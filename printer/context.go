@@ -10,8 +10,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/flyqie/dbus-codegen-go/token"
-	"github.com/godbus/dbus/v5/introspect"
+	"github.com/sakura-remote-desktop/dbus-codegen-go/token"
+	"github.com/sakura-remote-desktop/godbus/v5/introspect"
 )
 
 func newContext(ifaces []*token.Interface, opts ...PrintOption) (*context, error) {

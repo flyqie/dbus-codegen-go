@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/godbus/dbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5"
 	"os"
 )
 

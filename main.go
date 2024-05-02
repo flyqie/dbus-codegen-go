@@ -10,11 +10,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/flyqie/dbus-codegen-go/parser"
-	"github.com/flyqie/dbus-codegen-go/printer"
-	"github.com/flyqie/dbus-codegen-go/token"
-	"github.com/godbus/dbus/v5"
-	"github.com/godbus/dbus/v5/introspect"
+	"github.com/sakura-remote-desktop/dbus-codegen-go/parser"
+	"github.com/sakura-remote-desktop/dbus-codegen-go/printer"
+	"github.com/sakura-remote-desktop/dbus-codegen-go/token"
+	"github.com/sakura-remote-desktop/godbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5/introspect"
 )
 
 var (

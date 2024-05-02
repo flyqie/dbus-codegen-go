@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"text/template"
 
-	"github.com/flyqie/dbus-codegen-go/token"
+	"github.com/sakura-remote-desktop/dbus-codegen-go/token"
 )
 
 // PrintOption is a Print+ configuration option.
@@ -296,8 +296,8 @@ func Print(out io.Writer, ifaces []*token.Interface, opts ...PrintOption) error 
 		return err
 	}
 
-	ctx.addImport("github.com/godbus/dbus/v5")
-	ctx.addImport("github.com/godbus/dbus/v5/introspect")
+	ctx.addImport("github.com/sakura-remote-desktop/godbus/v5")
+	ctx.addImport("github.com/sakura-remote-desktop/godbus/v5/introspect")
 
 	if !ctx.ServerOnly {
 		ctx.addImport("context")

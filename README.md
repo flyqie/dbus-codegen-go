@@ -2,7 +2,7 @@
 
 [D-Bus Introspection Data Format](https://dbus.freedesktop.org/doc/dbus-specification.html#introspection-format) Go code generator.
 
-The project depends only on [github.com/godbus/dbus](https://github.com/godbus/dbus) module and cannot be used separately because it operates its data types.
+The project depends only on [github.com/sakura-remote-desktop/godbus](https://github.com/sakura-remote-desktop/godbus) module and cannot be used separately because it operates its data types.
 
 CLI and generated code API is a subject to change until `v1.0.0`.
 
@@ -128,13 +128,13 @@ if err := Emit(conn, &My_Awesome_Interface_SomethingHappenedSignal{
 You can install it with `go get`:
 
 ```bash
-GO111MODULE=on go get -u github.com/flyqie/dbus-codegen-go
+GO111MODULE=on go get -u github.com/sakura-remote-desktop/dbus-codegen-go
 ```
 
 Or clone the repo and build it manually:
 
 ```bash
-git clone https://github.com/flyqie/dbus-codegen-go.git .
+git clone https://github.com/sakura-remote-desktop/dbus-codegen-go.git .
 go install
 ```
 
