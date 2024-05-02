@@ -123,23 +123,6 @@ if err := Emit(conn, &My_Awesome_Interface_SomethingHappenedSignal{
 }
 ```
 
-## Installation
-
-You can install it with `go get`:
-
-```bash
-GO111MODULE=on go get -u github.com/amenzhinsky/dbus-codegen-go
-```
-
-Or clone the repo and build it manually:
-
-```bash
-git clone https://github.com/amenzhinsky/dbus-codegen-go.git .
-go install
-```
-
-Make sure `$(go env GOPATH)/bin` is in your `$PATH`.
-
 ## Usage
 
 The program treats command-line arguments as paths to XML files or reads out **stdin** if none given:
